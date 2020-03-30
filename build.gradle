@@ -37,6 +37,7 @@ dependencies {
     testImplementation "io.micronaut.test:micronaut-test-junit5"
     testImplementation "io.micronaut:micronaut-inject-java"
     testRuntimeOnly "org.junit.jupiter:junit-jupiter-engine"
+    implementation "com.luckycatlabs:SunriseSunsetCalculator:1.2"
 }
 
 test.classpath += configurations.developmentOnly

@@ -1,3 +1,15 @@
 micronaut:
   application:
     name: sunny-influx-connector
+    # ---------- MQTT Broker Confgiguration ----------
+    mqtt:
+      broker:
+        url: tcp://bueropi:1883
+        #mqtt.broker.password=
+        #mqtt.broker.username=
+        topic: de/karthaus/sma/pac
+    #
+    # Sunrise / Sunset Configguration
+    location:
+      longitude: 7.522828
+      latitude: 50.933449
